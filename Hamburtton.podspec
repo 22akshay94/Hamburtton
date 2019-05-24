@@ -25,10 +25,10 @@ A simple UIButton library with a fun transition animation for switching between 
 
   s.ios.deployment_target = '11.1'
 
-  s.source_files = 'Hamburtton/*.swift'
+  s.source_files = 'Development_Pods/Hamburtton/**/*.swift'
   
   s.resource_bundles = {
-    'Hamburtton' => ['Hamburtton/*/AnimationView.xib']
+    'Hamburtton' => ['Development_Pods/Hamburtton/**/*.xib']
   }
 
 end
