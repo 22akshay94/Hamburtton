@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Hamburtton_Example' do
+  pod 'Hamburtton', :path => '../'
+
+  target 'Hamburtton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
