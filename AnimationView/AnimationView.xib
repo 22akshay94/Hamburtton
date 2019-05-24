@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnimationView" customModule="CustomButton" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomLbl" destination="5Tl-IR-sdB" id="X7X-DO-uwm"/>
+                <outlet property="bottomLblHeightConstraint" destination="uOu-Hz-xkZ" id="z3w-Er-vgG"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="OY5-mX-zVP"/>
+                <outlet property="middleLbl" destination="wAj-lR-Vtk" id="H9f-v5-8TL"/>
+                <outlet property="middleLblHeightConstraint" destination="Df1-JW-0rq" id="jN3-o7-bwr"/>
+                <outlet property="topLbl" destination="1EE-z1-8mn" id="CJk-i9-AXm"/>
+                <outlet property="topLblHeightConstraint" destination="Hag-QZ-etL" id="1d2-Eb-IQW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1EE-z1-8mn">
+                    <rect key="frame" x="25" y="47.5" width="150" height="5"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="5" id="Hag-QZ-etL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAj-lR-Vtk">
+                    <rect key="frame" x="25" y="97.5" width="150" height="5"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="5" id="Df1-JW-0rq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Tl-IR-sdB">
+                    <rect key="frame" x="25" y="147.5" width="150" height="5"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="5" id="uOu-Hz-xkZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wAj-lR-Vtk" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="3VX-jt-oGq"/>
+                <constraint firstItem="1EE-z1-8mn" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" multiplier="0.5" id="5hO-Hx-lRN"/>
+                <constraint firstItem="5Tl-IR-sdB" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="IZC-c2-8zQ"/>
+                <constraint firstItem="1EE-z1-8mn" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="R02-z0-Otc"/>
+                <constraint firstItem="5Tl-IR-sdB" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" multiplier="1.5" id="cY1-CT-ate"/>
+                <constraint firstItem="wAj-lR-Vtk" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="k2Z-NN-jNT"/>
+                <constraint firstItem="wAj-lR-Vtk" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.75" id="miZ-ul-w7B"/>
+                <constraint firstItem="1EE-z1-8mn" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.75" id="tIy-dc-bC7"/>
+                <constraint firstItem="5Tl-IR-sdB" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.75" id="vsY-pe-avR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>
