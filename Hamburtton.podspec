@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'Hamburtton'
   s.version          = '1.0.0'
   s.summary          = 'UIButton library with animation.'
+  s.swift_version    = '4.0'
 
   s.description      = <<-DESC
 A simple UIButton library with a fun transition animation for switching between selected and unselected button states.
@@ -24,10 +25,10 @@ A simple UIButton library with a fun transition animation for switching between 
 
   s.ios.deployment_target = '11.1'
 
-  s.source_files = 'Hamburtton/**/*.swift'
+  s.source_files = 'Hamburtton/*.swift'
   
   s.resource_bundles = {
-    'Hamburtton' => ['Hamburtton/AnimationView/AnimationView.xib']
+    'Hamburtton' => ['Hamburtton/*/AnimationView.xib']
   }
 
 end
