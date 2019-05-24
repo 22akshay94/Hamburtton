@@ -22,7 +22,7 @@ pod 'Hamburtton'
 
 ## Author
 
-22akshay94, akshay@mobikasa.com
+22akshay94, akshay.yerneni@hotmail.com
 
 ## License
 

@@ -1,0 +1,22 @@
+{
+  "name": "Hamburtton",
+  "version": "0.1.0",
+  "summary": "A short description of Hamburtton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/22akshay94/Hamburtton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "22akshay94": "akshay@mobikasa.com"
+  },
+  "source": {
+    "git": "https://github.com/22akshay94/Hamburtton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Hamburtton/Classes/**/*"
+}

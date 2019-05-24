@@ -2,9 +2,6 @@
 //  AnimationView.swift
 //  CustomButton
 //
-//  Created by Mobikasa Macmini 1 on 11/5/18.
-//  Copyright © 2018 mobikasa. All rights reserved.
-//
 
 import UIKit
 
@@ -92,5 +89,4 @@ class AnimationView: UIView {
             }
         }
     }
-
 }

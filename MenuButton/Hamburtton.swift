@@ -2,13 +2,10 @@
 //  MenuButton.swift
 //  CustomButton
 //
-//  Created by Mobikasa Macmini 1 on 11/5/18.
-//  Copyright © 2018 mobikasa. All rights reserved.
-//
 
 import UIKit
 
-class MenuButton: UIButton {
+class Hamburtton: UIButton {
     
     private let animationView = AnimationView()
     private var isOpen: Bool = false

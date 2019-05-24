@@ -8,35 +8,26 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Hamburtton'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Hamburtton.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '1.0.0'
+  s.summary          = 'UIButton library with animation.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A simple UIButton library with a fun transition animation for switching between selected and unselected button states.
                        DESC
 
   s.homepage         = 'https://github.com/22akshay94/Hamburtton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '22akshay94' => 'akshay@mobikasa.com' }
+  s.author           = { '22akshay94' => 'akshay.yerneni@hotmail.com' }
   s.source           = { :git => 'https://github.com/22akshay94/Hamburtton.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/@mofoprogboi'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.1'
 
-  s.source_files = 'Hamburtton/Classes/**/*'
+  s.source_files = 'Hamburtton/**/*.swift'
   
-  # s.resource_bundles = {
-  #   'Hamburtton' => ['Hamburtton/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'Hamburtton' => ['Hamburtton/AnimationView/AnimationView.xib']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

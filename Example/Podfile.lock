@@ -1,0 +1,16 @@
+PODS:
+  - Hamburtton (0.1.0)
+
+DEPENDENCIES:
+  - Hamburtton (from `../`)
+
+EXTERNAL SOURCES:
+  Hamburtton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Hamburtton: 50e3daad18da6b663e3e666f64959ac6369a64d9
+
+PODFILE CHECKSUM: f864e2dc25c7d464e89cc2a65e697746925a72c8
+
+COCOAPODS: 1.6.2

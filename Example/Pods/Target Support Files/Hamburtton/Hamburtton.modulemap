@@ -1,0 +1,6 @@
+framework module Hamburtton {
+  umbrella header "Hamburtton-umbrella.h"
+
+  export *
+  module * { export * }
+}
