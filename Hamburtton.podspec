@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Hamburtton'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A simple UIButton class with a hamburger animation.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Akshay/Hamburtton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Akshay' => 'akshay@mobikasa.com' }
+  s.author           = { 'Akshay Yerneni' => 'akshay.yerneni@hotmail.com' }
   s.source           = { :git => 'https://github.com/22akshay94/Hamburtton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
