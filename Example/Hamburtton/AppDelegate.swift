@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Hamburtton
 //
-//  Created by 22akshay94 on 05/24/2019.
-//  Copyright (c) 2019 22akshay94. All rights reserved.
+//  Created by Akshay on 08/02/2019.
+//  Copyright (c) 2019 Akshay. All rights reserved.
 //
 
 import UIKit

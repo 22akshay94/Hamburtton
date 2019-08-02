@@ -1,6 +1,6 @@
 # Hamburtton
 
-[![CI Status](https://img.shields.io/travis/22akshay94/Hamburtton.svg?style=flat)](https://travis-ci.org/22akshay94/Hamburtton)
+[![CI Status](https://img.shields.io/travis/Akshay/Hamburtton.svg?style=flat)](https://travis-ci.org/Akshay/Hamburtton)
 [![Version](https://img.shields.io/cocoapods/v/Hamburtton.svg?style=flat)](https://cocoapods.org/pods/Hamburtton)
 [![License](https://img.shields.io/cocoapods/l/Hamburtton.svg?style=flat)](https://cocoapods.org/pods/Hamburtton)
 [![Platform](https://img.shields.io/cocoapods/p/Hamburtton.svg?style=flat)](https://cocoapods.org/pods/Hamburtton)
@@ -22,7 +22,7 @@ pod 'Hamburtton'
 
 ## Author
 
-22akshay94, akshay.yerneni@hotmail.com
+Akshay, akshay@mobikasa.com
 
 ## License
 

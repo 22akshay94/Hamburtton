@@ -7,154 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05739653FCDC15870560EBD7D6F4BB37 /* Pods-Hamburtton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A30F4A118805ABC6D89354C863745577 /* Pods-Hamburtton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A39B698EC1B11E99FF74F9CAA1A3031 /* Hamburtton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC47B4C1A9CB3A43D94E8E7AD5A3647 /* Hamburtton-dummy.m */; };
-		5C2FB76D98EFF6001144273160F5CB37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7416E209732EAFDC37DF04B1CC1779CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7A4D1C30FEC4FF4CD150EEF87C931AB4 /* Pods-Hamburtton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0BE6F8758E8007BC8E787FA86C82DB /* Pods-Hamburtton_Example-dummy.m */; };
-		89B04C380D1B05FD701631154922523D /* Pods-Hamburtton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA39BBB8962BD24E08194B6104ACD3A /* Pods-Hamburtton_Tests-dummy.m */; };
-		B336A204A86150084060854A61B06C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BE95D192EB7DDDA27FF76DD2CE9FDA27 /* Hamburtton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F67785B673F4ED6174E4F20EDFB81F5A /* Hamburtton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB6BD2D2C60893AF67A61F904007949C /* Pods-Hamburtton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE120537FDA1DBBE5D5A34AE6CE09141 /* Pods-Hamburtton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9ED345522982A57007DD2D9 /* AnimationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9ED345322982A57007DD2D9 /* AnimationView.xib */; };
-		E9ED345622982A57007DD2D9 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED345422982A57007DD2D9 /* AnimationView.swift */; };
-		E9ED345922982A75007DD2D9 /* Hamburtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED345822982A75007DD2D9 /* Hamburtton.swift */; };
+		12CBB91006629CBE13FBEFDE6653D9BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1CFA838EEA1CFEB2B7EFBDD08800BF26 /* Pods-Hamburtton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA10B8F0214FC8AD7802C0F96F97095 /* Pods-Hamburtton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2483BA8B5113F8D6AE1FBB0FDD41BA28 /* Pods-Hamburtton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C4F5C651FD2CFCF8E4B218AA27FC44 /* Pods-Hamburtton_Tests-dummy.m */; };
+		262B6E6945FE37DAF9CCEDF175CEA138 /* Pods-Hamburtton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 326FBB3619B4DA786429C580C54AF956 /* Pods-Hamburtton_Example-dummy.m */; };
+		522757D9B42A8943A3C4E3612FA178BD /* Pods-Hamburtton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 540A1E7BDBE3343EEF25C076123FFA02 /* Pods-Hamburtton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AC024C0C60BADE035D0791ECEE56322 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78CAEC40806DD60A01106116918688 /* AnimationView.swift */; };
+		8DF854F8C3FB1924C9655E9B3D0DDADE /* Hamburtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875E02127066E5AE26BFEF4D5D230C94 /* Hamburtton.swift */; };
+		92BBB64752CA0A7C421EC0570A85AA9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A55F4A6169F93B9A139AFDF7587B4542 /* Hamburtton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3C5ACF12451A226A8D128DE3D2925E /* Hamburtton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6D329721129D20AFC09315BC393E9A1 /* AnimationView.xib in Sources */ = {isa = PBXBuildFile; fileRef = FD7436BBD230606EC2298503ACB4F8C6 /* AnimationView.xib */; };
+		E9037F3D32159144E3801AE037C40A3C /* Hamburtton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8EBA5E378B90CE5BDD8152CC5559A /* Hamburtton-dummy.m */; };
+		EC74CD3A64F965BF24636253BB8C5C40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		078789CBB09E9C5B738422D6604117D2 /* PBXContainerItemProxy */ = {
+		77F06DAFEF03F7D92B939D05166F95E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 760619CD0F27488B00B43A6F1C310ECB;
-			remoteInfo = Hamburtton;
-		};
-		CB051B59834B9BD1096D4C2B4408110E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 14C527AD4509EFB4186596471650832E;
+			remoteGlobalIDString = 005B8DD85A2C22E281EEBA52EDA323F5;
 			remoteInfo = "Pods-Hamburtton_Example";
+		};
+		92B9CB1A9448DE864CEF07BD02108954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 751ED69A9AF516DE26759F289EE8F8EE;
+			remoteInfo = Hamburtton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07F12F52D9C6CD9781D0F9C41012989E /* Pods-Hamburtton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hamburtton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0FC47B4C1A9CB3A43D94E8E7AD5A3647 /* Hamburtton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hamburtton-dummy.m"; sourceTree = "<group>"; };
-		1709A61F602818A4130E05D59AF54D40 /* Hamburtton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Hamburtton.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		2D2792A456320E82E0D47D67EBB14C6F /* Pods-Hamburtton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hamburtton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		11434B101A2B15122B82DE43D70224E1 /* Hamburtton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hamburtton.modulemap; sourceTree = "<group>"; };
+		13F3F2FA0BDED39EDE357DBA31AEFD75 /* Pods-Hamburtton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hamburtton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1735FDB9E0A03661C3F08CB4F6C63F92 /* Hamburtton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Hamburtton-Info.plist"; sourceTree = "<group>"; };
+		188FD9D12AE7F2DB112508729671259E /* Pods-Hamburtton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hamburtton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DBB7DCF030264F4D3D9EB898C1BC4A7 /* Pods-Hamburtton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hamburtton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2E03D73E2C5D06063E91B7A5C90CD0C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		36899407C11C5F14F878CD91CE5D6BAD /* Hamburtton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hamburtton.modulemap; sourceTree = "<group>"; };
-		47979C794F97B371B82E136D46685AB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5B5434628F51C8AC4494297A38C9FDDE /* Pods_Hamburtton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hamburtton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		689EC3A14E9A115DFEAF25365487E640 /* Pods-Hamburtton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hamburtton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6C986064EB33145D707591246B6A37FB /* Hamburtton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hamburtton.xcconfig; sourceTree = "<group>"; };
-		790D54DAACF1032BB0374A09D68E3C9B /* Pods-Hamburtton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hamburtton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		88D5C7A5FBC3B227AFA8E12DF99A695E /* Hamburtton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Hamburtton-Info.plist"; sourceTree = "<group>"; };
-		8F78EFE0C296C0B5941D2B71944CA1DD /* Pods-Hamburtton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hamburtton_Tests.modulemap"; sourceTree = "<group>"; };
-		8F9E5C6C8EF8738FF48DAF5F1C1227C6 /* Pods-Hamburtton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hamburtton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		326FBB3619B4DA786429C580C54AF956 /* Pods-Hamburtton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hamburtton_Example-dummy.m"; sourceTree = "<group>"; };
+		362E399343A9D0600A7886EBC795696D /* Pods-Hamburtton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hamburtton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		540A1E7BDBE3343EEF25C076123FFA02 /* Pods-Hamburtton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hamburtton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		56A9D8A5F5DDF9A21A20C9A22A4C8C15 /* Pods-Hamburtton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hamburtton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		659AC44D0DA0D043289641B7D43F844E /* Pods_Hamburtton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hamburtton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		699FDE6147C683F725E958906A923A54 /* Pods-Hamburtton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hamburtton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6AA10B8F0214FC8AD7802C0F96F97095 /* Pods-Hamburtton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hamburtton_Example-umbrella.h"; sourceTree = "<group>"; };
+		875E02127066E5AE26BFEF4D5D230C94 /* Hamburtton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hamburtton.swift; path = Hamburtton/Classes/Hamburtton.swift; sourceTree = "<group>"; };
+		9CC25523EAB3653CF240CB5A6D7BFABC /* Hamburtton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hamburtton.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A16D0DAC6C22A7A3D8CD7ACC5F3058C8 /* Pods-Hamburtton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hamburtton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A2AEE86507EAEFEC81385D9BF80834D6 /* Pods_Hamburtton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hamburtton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A30F4A118805ABC6D89354C863745577 /* Pods-Hamburtton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hamburtton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AE120537FDA1DBBE5D5A34AE6CE09141 /* Pods-Hamburtton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hamburtton_Example-umbrella.h"; sourceTree = "<group>"; };
-		C3C0045957D0D9DF7DA141439905B261 /* Pods-Hamburtton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hamburtton_Tests-Info.plist"; sourceTree = "<group>"; };
-		C52EF6667C34AF1C0769BA971D8CC894 /* Pods-Hamburtton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hamburtton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C6EBFEACFAA5E7CE358B7BFEF61AE0AF /* Pods-Hamburtton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hamburtton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CEA39BBB8962BD24E08194B6104ACD3A /* Pods-Hamburtton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hamburtton_Tests-dummy.m"; sourceTree = "<group>"; };
-		DA54A6D6F39FB2478B0F9F7FF6331464 /* Hamburtton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hamburtton-prefix.pch"; sourceTree = "<group>"; };
-		E2412AE7914D544EA4FF8FD51BF4EC4C /* Pods-Hamburtton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hamburtton_Example.modulemap"; sourceTree = "<group>"; };
-		E91919981EA50133FBF19D0D2E984347 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E9C7EDB576B6276092883072804809E1 /* Pods-Hamburtton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hamburtton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E9ED345322982A57007DD2D9 /* AnimationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationView.xib; sourceTree = "<group>"; };
-		E9ED345422982A57007DD2D9 /* AnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
-		E9ED345822982A75007DD2D9 /* Hamburtton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamburtton.swift; sourceTree = "<group>"; };
-		ED0BE6F8758E8007BC8E787FA86C82DB /* Pods-Hamburtton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hamburtton_Example-dummy.m"; sourceTree = "<group>"; };
-		F67785B673F4ED6174E4F20EDFB81F5A /* Hamburtton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hamburtton-umbrella.h"; sourceTree = "<group>"; };
-		FA2881AEAE2A896D0CD7B29774C56127 /* Hamburtton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hamburtton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE27C48404CDA61A4D985CB8826FBB10 /* Pods-Hamburtton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hamburtton_Example-Info.plist"; sourceTree = "<group>"; };
+		9FE8EBA5E378B90CE5BDD8152CC5559A /* Hamburtton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hamburtton-dummy.m"; sourceTree = "<group>"; };
+		AA946F7C58ECC4D5557EF9F014AB8B47 /* Pods-Hamburtton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hamburtton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE29D874446FC23AA7BC1C5945F9B67B /* Pods-Hamburtton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hamburtton_Example-Info.plist"; sourceTree = "<group>"; };
+		AF3C5ACF12451A226A8D128DE3D2925E /* Hamburtton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hamburtton-umbrella.h"; sourceTree = "<group>"; };
+		B33E524E4E85F301582664AD6A878FB0 /* Hamburtton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hamburtton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BCF03E21515E55B82A1AE87328F7AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B6E1D32C36C80142C9516711688532A3 /* Pods-Hamburtton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hamburtton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B7C4F5C651FD2CFCF8E4B218AA27FC44 /* Pods-Hamburtton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hamburtton_Tests-dummy.m"; sourceTree = "<group>"; };
+		C5459BB50FCB75714C6B99ABAA6E99CC /* Pods-Hamburtton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hamburtton_Tests.modulemap"; sourceTree = "<group>"; };
+		CB9D17740E3ED9B8DA9232463B77090B /* Pods_Hamburtton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hamburtton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F64F06E1668EBEB1EC50AEC802DFBF /* Hamburtton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Hamburtton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D82205D380207954F45EAE649CD0C8C5 /* Pods-Hamburtton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hamburtton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D855D0A4C5EEDB9EF0E075396F5D8AD0 /* Pods-Hamburtton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hamburtton_Tests-Info.plist"; sourceTree = "<group>"; };
+		DA6726E7D6553BC0B8D4C4D9D800DA48 /* Pods-Hamburtton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hamburtton_Example.modulemap"; sourceTree = "<group>"; };
+		F0C358DF2BDD62BC7189F8BE95CCEC82 /* Hamburtton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hamburtton-prefix.pch"; sourceTree = "<group>"; };
+		FD7436BBD230606EC2298503ACB4F8C6 /* AnimationView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AnimationView.xib; path = Hamburtton/Classes/AnimationView.xib; sourceTree = "<group>"; };
+		FE78CAEC40806DD60A01106116918688 /* AnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationView.swift; path = Hamburtton/Classes/AnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		45EF985C5906D6BD3B8272AAD3F24482 /* Frameworks */ = {
+		957FC1B7BE66A6F3594037D80577BE14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7416E209732EAFDC37DF04B1CC1779CA /* Foundation.framework in Frameworks */,
+				92BBB64752CA0A7C421EC0570A85AA9C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EB0089637AB90AE51262AFBFB9AA589 /* Frameworks */ = {
+		B8A348F14EEAF05E4E7362980F3D6914 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B336A204A86150084060854A61B06C6B /* Foundation.framework in Frameworks */,
+				12CBB91006629CBE13FBEFDE6653D9BF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBBE64C0E765C5CF573B64A822B9C7DA /* Frameworks */ = {
+		FA694222ACC1A08EB908267F5DEB454E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C2FB76D98EFF6001144273160F5CB37 /* Foundation.framework in Frameworks */,
+				EC74CD3A64F965BF24636253BB8C5C40 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		361B4BEB964B52F220DD23E7C265CD64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11434B101A2B15122B82DE43D70224E1 /* Hamburtton.modulemap */,
+				9CC25523EAB3653CF240CB5A6D7BFABC /* Hamburtton.xcconfig */,
+				9FE8EBA5E378B90CE5BDD8152CC5559A /* Hamburtton-dummy.m */,
+				1735FDB9E0A03661C3F08CB4F6C63F92 /* Hamburtton-Info.plist */,
+				F0C358DF2BDD62BC7189F8BE95CCEC82 /* Hamburtton-prefix.pch */,
+				AF3C5ACF12451A226A8D128DE3D2925E /* Hamburtton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Hamburtton";
+			sourceTree = "<group>";
+		};
 		424328A96B0A633A21149A59012CA9C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA2881AEAE2A896D0CD7B29774C56127 /* Hamburtton.framework */,
-				5B5434628F51C8AC4494297A38C9FDDE /* Pods_Hamburtton_Example.framework */,
-				A2AEE86507EAEFEC81385D9BF80834D6 /* Pods_Hamburtton_Tests.framework */,
+				B33E524E4E85F301582664AD6A878FB0 /* Hamburtton.framework */,
+				CB9D17740E3ED9B8DA9232463B77090B /* Pods_Hamburtton_Example.framework */,
+				659AC44D0DA0D043289641B7D43F844E /* Pods_Hamburtton_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D61F0CBEC42AE5561E8493E10648ACF /* Hamburtton */ = {
+		47F84007B64AD5C0B90448828E223202 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E9ED345722982A5C007DD2D9 /* MenuButton */,
-				E9ED345222982A48007DD2D9 /* AnimationView */,
-				56DED91AAAD7CB0665B412E9661D6B12 /* Pod */,
-				A2597C5A3125A43EAFAC1A031BC08EC5 /* Support Files */,
-			);
-			name = Hamburtton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		56DED91AAAD7CB0665B412E9661D6B12 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1709A61F602818A4130E05D59AF54D40 /* Hamburtton.podspec */,
-				E91919981EA50133FBF19D0D2E984347 /* LICENSE */,
-				47979C794F97B371B82E136D46685AB0 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		90B78BD5F96F2CBD590D1F52035ECD9F /* Pods-Hamburtton_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				8F78EFE0C296C0B5941D2B71944CA1DD /* Pods-Hamburtton_Tests.modulemap */,
-				E9C7EDB576B6276092883072804809E1 /* Pods-Hamburtton_Tests-acknowledgements.markdown */,
-				C6EBFEACFAA5E7CE358B7BFEF61AE0AF /* Pods-Hamburtton_Tests-acknowledgements.plist */,
-				CEA39BBB8962BD24E08194B6104ACD3A /* Pods-Hamburtton_Tests-dummy.m */,
-				C3C0045957D0D9DF7DA141439905B261 /* Pods-Hamburtton_Tests-Info.plist */,
-				A30F4A118805ABC6D89354C863745577 /* Pods-Hamburtton_Tests-umbrella.h */,
-				689EC3A14E9A115DFEAF25365487E640 /* Pods-Hamburtton_Tests.debug.xcconfig */,
-				8F9E5C6C8EF8738FF48DAF5F1C1227C6 /* Pods-Hamburtton_Tests.release.xcconfig */,
-			);
-			name = "Pods-Hamburtton_Tests";
-			path = "Target Support Files/Pods-Hamburtton_Tests";
-			sourceTree = "<group>";
-		};
-		9BD1FD948FF2D31A8814D71592534138 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4D61F0CBEC42AE5561E8493E10648ACF /* Hamburtton */,
+				D4BBB1B446E45F3CA67EB1584A33BB85 /* Hamburtton */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -162,41 +138,10 @@
 		9D8E4AD710CC45465BF90E81856EC3A1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A9DD7927F76CC19DB888817C40C475F4 /* Pods-Hamburtton_Example */,
-				90B78BD5F96F2CBD590D1F52035ECD9F /* Pods-Hamburtton_Tests */,
+				D006B4D40C4483F02F3826E6FB240FEC /* Pods-Hamburtton_Example */,
+				D13E3461C23B5EE518EFA0DBD514EF67 /* Pods-Hamburtton_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A2597C5A3125A43EAFAC1A031BC08EC5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				36899407C11C5F14F878CD91CE5D6BAD /* Hamburtton.modulemap */,
-				6C986064EB33145D707591246B6A37FB /* Hamburtton.xcconfig */,
-				0FC47B4C1A9CB3A43D94E8E7AD5A3647 /* Hamburtton-dummy.m */,
-				88D5C7A5FBC3B227AFA8E12DF99A695E /* Hamburtton-Info.plist */,
-				DA54A6D6F39FB2478B0F9F7FF6331464 /* Hamburtton-prefix.pch */,
-				F67785B673F4ED6174E4F20EDFB81F5A /* Hamburtton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Hamburtton";
-			sourceTree = "<group>";
-		};
-		A9DD7927F76CC19DB888817C40C475F4 /* Pods-Hamburtton_Example */ = {
-			isa = PBXGroup;
-			children = (
-				E2412AE7914D544EA4FF8FD51BF4EC4C /* Pods-Hamburtton_Example.modulemap */,
-				A16D0DAC6C22A7A3D8CD7ACC5F3058C8 /* Pods-Hamburtton_Example-acknowledgements.markdown */,
-				C52EF6667C34AF1C0769BA971D8CC894 /* Pods-Hamburtton_Example-acknowledgements.plist */,
-				ED0BE6F8758E8007BC8E787FA86C82DB /* Pods-Hamburtton_Example-dummy.m */,
-				2D2792A456320E82E0D47D67EBB14C6F /* Pods-Hamburtton_Example-frameworks.sh */,
-				FE27C48404CDA61A4D985CB8826FBB10 /* Pods-Hamburtton_Example-Info.plist */,
-				AE120537FDA1DBBE5D5A34AE6CE09141 /* Pods-Hamburtton_Example-umbrella.h */,
-				790D54DAACF1032BB0374A09D68E3C9B /* Pods-Hamburtton_Example.debug.xcconfig */,
-				07F12F52D9C6CD9781D0F9C41012989E /* Pods-Hamburtton_Example.release.xcconfig */,
-			);
-			name = "Pods-Hamburtton_Example";
-			path = "Target Support Files/Pods-Hamburtton_Example";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -207,15 +152,58 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C4DDEE531346B11696229DC97703911C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D2F64F06E1668EBEB1EC50AEC802DFBF /* Hamburtton.podspec */,
+				2E03D73E2C5D06063E91B7A5C90CD0C2 /* LICENSE */,
+				B6BCF03E21515E55B82A1AE87328F7AD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9BD1FD948FF2D31A8814D71592534138 /* Development Pods */,
+				47F84007B64AD5C0B90448828E223202 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				424328A96B0A633A21149A59012CA9C9 /* Products */,
 				9D8E4AD710CC45465BF90E81856EC3A1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D006B4D40C4483F02F3826E6FB240FEC /* Pods-Hamburtton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DA6726E7D6553BC0B8D4C4D9D800DA48 /* Pods-Hamburtton_Example.modulemap */,
+				362E399343A9D0600A7886EBC795696D /* Pods-Hamburtton_Example-acknowledgements.markdown */,
+				699FDE6147C683F725E958906A923A54 /* Pods-Hamburtton_Example-acknowledgements.plist */,
+				326FBB3619B4DA786429C580C54AF956 /* Pods-Hamburtton_Example-dummy.m */,
+				13F3F2FA0BDED39EDE357DBA31AEFD75 /* Pods-Hamburtton_Example-frameworks.sh */,
+				AE29D874446FC23AA7BC1C5945F9B67B /* Pods-Hamburtton_Example-Info.plist */,
+				6AA10B8F0214FC8AD7802C0F96F97095 /* Pods-Hamburtton_Example-umbrella.h */,
+				1DBB7DCF030264F4D3D9EB898C1BC4A7 /* Pods-Hamburtton_Example.debug.xcconfig */,
+				56A9D8A5F5DDF9A21A20C9A22A4C8C15 /* Pods-Hamburtton_Example.release.xcconfig */,
+			);
+			name = "Pods-Hamburtton_Example";
+			path = "Target Support Files/Pods-Hamburtton_Example";
+			sourceTree = "<group>";
+		};
+		D13E3461C23B5EE518EFA0DBD514EF67 /* Pods-Hamburtton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C5459BB50FCB75714C6B99ABAA6E99CC /* Pods-Hamburtton_Tests.modulemap */,
+				188FD9D12AE7F2DB112508729671259E /* Pods-Hamburtton_Tests-acknowledgements.markdown */,
+				D82205D380207954F45EAE649CD0C8C5 /* Pods-Hamburtton_Tests-acknowledgements.plist */,
+				B7C4F5C651FD2CFCF8E4B218AA27FC44 /* Pods-Hamburtton_Tests-dummy.m */,
+				D855D0A4C5EEDB9EF0E075396F5D8AD0 /* Pods-Hamburtton_Tests-Info.plist */,
+				540A1E7BDBE3343EEF25C076123FFA02 /* Pods-Hamburtton_Tests-umbrella.h */,
+				AA946F7C58ECC4D5557EF9F014AB8B47 /* Pods-Hamburtton_Tests.debug.xcconfig */,
+				B6E1D32C36C80142C9516711688532A3 /* Pods-Hamburtton_Tests.release.xcconfig */,
+			);
+			name = "Pods-Hamburtton_Tests";
+			path = "Target Support Files/Pods-Hamburtton_Tests";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -226,80 +214,76 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E9ED345222982A48007DD2D9 /* AnimationView */ = {
+		D4BBB1B446E45F3CA67EB1584A33BB85 /* Hamburtton */ = {
 			isa = PBXGroup;
 			children = (
-				E9ED345422982A57007DD2D9 /* AnimationView.swift */,
-				E9ED345322982A57007DD2D9 /* AnimationView.xib */,
+				FE78CAEC40806DD60A01106116918688 /* AnimationView.swift */,
+				FD7436BBD230606EC2298503ACB4F8C6 /* AnimationView.xib */,
+				875E02127066E5AE26BFEF4D5D230C94 /* Hamburtton.swift */,
+				C4DDEE531346B11696229DC97703911C /* Pod */,
+				361B4BEB964B52F220DD23E7C265CD64 /* Support Files */,
 			);
-			path = AnimationView;
-			sourceTree = "<group>";
-		};
-		E9ED345722982A5C007DD2D9 /* MenuButton */ = {
-			isa = PBXGroup;
-			children = (
-				E9ED345822982A75007DD2D9 /* Hamburtton.swift */,
-			);
-			path = MenuButton;
+			name = Hamburtton;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		67898D1C8B07B5A2A5D098DB7BBD5E3B /* Headers */ = {
+		1291F422AC94CF7FD9F00E00B2AED09B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05739653FCDC15870560EBD7D6F4BB37 /* Pods-Hamburtton_Tests-umbrella.h in Headers */,
+				1CFA838EEA1CFEB2B7EFBDD08800BF26 /* Pods-Hamburtton_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8ECFEFEAA6B0DE9D7C7CAD9174B21674 /* Headers */ = {
+		5210B69FABDB314FD638DC01E6DE7555 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE95D192EB7DDDA27FF76DD2CE9FDA27 /* Hamburtton-umbrella.h in Headers */,
+				522757D9B42A8943A3C4E3612FA178BD /* Pods-Hamburtton_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E175CD0D54E40C7DF41C11316FE00236 /* Headers */ = {
+		93C2D0587CA8E838A2F1030CF34559D9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6BD2D2C60893AF67A61F904007949C /* Pods-Hamburtton_Example-umbrella.h in Headers */,
+				A55F4A6169F93B9A139AFDF7587B4542 /* Hamburtton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		14C527AD4509EFB4186596471650832E /* Pods-Hamburtton_Example */ = {
+		005B8DD85A2C22E281EEBA52EDA323F5 /* Pods-Hamburtton_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 810A32E9DBDCEDC8099326193A83ED40 /* Build configuration list for PBXNativeTarget "Pods-Hamburtton_Example" */;
+			buildConfigurationList = 8BDE68A5733E5B82AA9928D5F4A1AC1A /* Build configuration list for PBXNativeTarget "Pods-Hamburtton_Example" */;
 			buildPhases = (
-				E175CD0D54E40C7DF41C11316FE00236 /* Headers */,
-				8FE6B5FA0816DBC116ED22E621801D6C /* Sources */,
-				45EF985C5906D6BD3B8272AAD3F24482 /* Frameworks */,
-				1F95379257107BB7DF1514A9A2044443 /* Resources */,
+				1291F422AC94CF7FD9F00E00B2AED09B /* Headers */,
+				A2D43A573BDAEF8B23CD8D96B69A5107 /* Sources */,
+				FA694222ACC1A08EB908267F5DEB454E /* Frameworks */,
+				14CA477A1256BAD577583C677AEA7C16 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D94249C07691F425D1FB12A8C405363E /* PBXTargetDependency */,
+				B4EE33C55F5712C0B4AF37D117FE906B /* PBXTargetDependency */,
 			);
 			name = "Pods-Hamburtton_Example";
 			productName = "Pods-Hamburtton_Example";
-			productReference = 5B5434628F51C8AC4494297A38C9FDDE /* Pods_Hamburtton_Example.framework */;
+			productReference = CB9D17740E3ED9B8DA9232463B77090B /* Pods_Hamburtton_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		760619CD0F27488B00B43A6F1C310ECB /* Hamburtton */ = {
+		751ED69A9AF516DE26759F289EE8F8EE /* Hamburtton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B20BE76913BF9EC8D0A5FF5EF8F0FE4 /* Build configuration list for PBXNativeTarget "Hamburtton" */;
+			buildConfigurationList = 93BE0E8B985664EC9D6C34046DD7B95C /* Build configuration list for PBXNativeTarget "Hamburtton" */;
 			buildPhases = (
-				8ECFEFEAA6B0DE9D7C7CAD9174B21674 /* Headers */,
-				2205992D55E785F8B9841BE09469E026 /* Sources */,
-				9EB0089637AB90AE51262AFBFB9AA589 /* Frameworks */,
-				C633FA65C2855F65527FF5DC05E5BBF9 /* Resources */,
+				93C2D0587CA8E838A2F1030CF34559D9 /* Headers */,
+				BACF0DD1D9DDE79E25C0F8BA8C39964B /* Sources */,
+				B8A348F14EEAF05E4E7362980F3D6914 /* Frameworks */,
+				7D735F3FDE5DD0A657E4C17DBBE31F72 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -307,26 +291,26 @@
 			);
 			name = Hamburtton;
 			productName = Hamburtton;
-			productReference = FA2881AEAE2A896D0CD7B29774C56127 /* Hamburtton.framework */;
+			productReference = B33E524E4E85F301582664AD6A878FB0 /* Hamburtton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7EA0B53198A7294804D69C9721AA2760 /* Pods-Hamburtton_Tests */ = {
+		CB5A55E8AEDB3DF3E91BD99B2D56563B /* Pods-Hamburtton_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E6BA4A291657ABE42CA7AACFBCAA40E /* Build configuration list for PBXNativeTarget "Pods-Hamburtton_Tests" */;
+			buildConfigurationList = 35C604B8898B8CA4614D989E17436DC7 /* Build configuration list for PBXNativeTarget "Pods-Hamburtton_Tests" */;
 			buildPhases = (
-				67898D1C8B07B5A2A5D098DB7BBD5E3B /* Headers */,
-				0631C85A44AF390F4C222AF2FC1EA6F9 /* Sources */,
-				EBBE64C0E765C5CF573B64A822B9C7DA /* Frameworks */,
-				51CB8AFC58758B7C74E36FACC6A4E5B3 /* Resources */,
+				5210B69FABDB314FD638DC01E6DE7555 /* Headers */,
+				B89C80D48C0F7C9F03E8467AEED24416 /* Sources */,
+				957FC1B7BE66A6F3594037D80577BE14 /* Frameworks */,
+				910240F0D26855AF930F7CD3A1BC9078 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				255C5E1B598B74813D48C78145FB01F1 /* PBXTargetDependency */,
+				177659992407324F0476FD06B1AD1542 /* PBXTargetDependency */,
 			);
 			name = "Pods-Hamburtton_Tests";
 			productName = "Pods-Hamburtton_Tests";
-			productReference = A2AEE86507EAEFEC81385D9BF80834D6 /* Pods_Hamburtton_Tests.framework */;
+			productReference = 659AC44D0DA0D043289641B7D43F844E /* Pods_Hamburtton_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -335,13 +319,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
-				TargetAttributes = {
-					760619CD0F27488B00B43A6F1C310ECB = {
-						LastSwiftMigration = 1020;
-					};
-				};
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -355,86 +334,153 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				760619CD0F27488B00B43A6F1C310ECB /* Hamburtton */,
-				14C527AD4509EFB4186596471650832E /* Pods-Hamburtton_Example */,
-				7EA0B53198A7294804D69C9721AA2760 /* Pods-Hamburtton_Tests */,
+				751ED69A9AF516DE26759F289EE8F8EE /* Hamburtton */,
+				005B8DD85A2C22E281EEBA52EDA323F5 /* Pods-Hamburtton_Example */,
+				CB5A55E8AEDB3DF3E91BD99B2D56563B /* Pods-Hamburtton_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1F95379257107BB7DF1514A9A2044443 /* Resources */ = {
+		14CA477A1256BAD577583C677AEA7C16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51CB8AFC58758B7C74E36FACC6A4E5B3 /* Resources */ = {
+		7D735F3FDE5DD0A657E4C17DBBE31F72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C633FA65C2855F65527FF5DC05E5BBF9 /* Resources */ = {
+		910240F0D26855AF930F7CD3A1BC9078 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9ED345522982A57007DD2D9 /* AnimationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0631C85A44AF390F4C222AF2FC1EA6F9 /* Sources */ = {
+		A2D43A573BDAEF8B23CD8D96B69A5107 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B04C380D1B05FD701631154922523D /* Pods-Hamburtton_Tests-dummy.m in Sources */,
+				262B6E6945FE37DAF9CCEDF175CEA138 /* Pods-Hamburtton_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2205992D55E785F8B9841BE09469E026 /* Sources */ = {
+		B89C80D48C0F7C9F03E8467AEED24416 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A39B698EC1B11E99FF74F9CAA1A3031 /* Hamburtton-dummy.m in Sources */,
-				E9ED345622982A57007DD2D9 /* AnimationView.swift in Sources */,
-				E9ED345922982A75007DD2D9 /* Hamburtton.swift in Sources */,
+				2483BA8B5113F8D6AE1FBB0FDD41BA28 /* Pods-Hamburtton_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FE6B5FA0816DBC116ED22E621801D6C /* Sources */ = {
+		BACF0DD1D9DDE79E25C0F8BA8C39964B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A4D1C30FEC4FF4CD150EEF87C931AB4 /* Pods-Hamburtton_Example-dummy.m in Sources */,
+				5AC024C0C60BADE035D0791ECEE56322 /* AnimationView.swift in Sources */,
+				A6D329721129D20AFC09315BC393E9A1 /* AnimationView.xib in Sources */,
+				E9037F3D32159144E3801AE037C40A3C /* Hamburtton-dummy.m in Sources */,
+				8DF854F8C3FB1924C9655E9B3D0DDADE /* Hamburtton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		255C5E1B598B74813D48C78145FB01F1 /* PBXTargetDependency */ = {
+		177659992407324F0476FD06B1AD1542 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Hamburtton_Example";
-			target = 14C527AD4509EFB4186596471650832E /* Pods-Hamburtton_Example */;
-			targetProxy = CB051B59834B9BD1096D4C2B4408110E /* PBXContainerItemProxy */;
+			target = 005B8DD85A2C22E281EEBA52EDA323F5 /* Pods-Hamburtton_Example */;
+			targetProxy = 77F06DAFEF03F7D92B939D05166F95E9 /* PBXContainerItemProxy */;
 		};
-		D94249C07691F425D1FB12A8C405363E /* PBXTargetDependency */ = {
+		B4EE33C55F5712C0B4AF37D117FE906B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Hamburtton;
-			target = 760619CD0F27488B00B43A6F1C310ECB /* Hamburtton */;
-			targetProxy = 078789CBB09E9C5B738422D6604117D2 /* PBXContainerItemProxy */;
+			target = 751ED69A9AF516DE26759F289EE8F8EE /* Hamburtton */;
+			targetProxy = 92B9CB1A9448DE864CEF07BD02108954 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		088F1BACD912AD2464775B3EB22AB0A6 /* Release */ = {
+		04305B4444F06B05FDD6A013A51D6D1C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F9E5C6C8EF8738FF48DAF5F1C1227C6 /* Pods-Hamburtton_Tests.release.xcconfig */;
+			baseConfigurationReference = 1DBB7DCF030264F4D3D9EB898C1BC4A7 /* Pods-Hamburtton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		168961B7F38B51F6598A4E67E5211343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A9D8A5F5DDF9A21A20C9A22A4C8C15 /* Pods-Hamburtton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D1E8E91F02FD954E653944A43B8627C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E1D32C36C80142C9516711688532A3 /* Pods-Hamburtton_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -448,7 +494,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Hamburtton_Tests/Pods-Hamburtton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Hamburtton_Tests/Pods-Hamburtton_Tests.modulemap";
@@ -466,9 +512,9 @@
 			};
 			name = Release;
 		};
-		0B54BB299836D7DADCAE578C9ADFB08D /* Debug */ = {
+		63CEDAC399008A93C685E4CD90E774F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 689EC3A14E9A115DFEAF25365487E640 /* Pods-Hamburtton_Tests.debug.xcconfig */;
+			baseConfigurationReference = AA946F7C58ECC4D5557EF9F014AB8B47 /* Pods-Hamburtton_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -482,7 +528,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Hamburtton_Tests/Pods-Hamburtton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Hamburtton_Tests/Pods-Hamburtton_Tests.modulemap";
@@ -499,11 +545,10 @@
 			};
 			name = Debug;
 		};
-		3693CC273CBFF54535638620E3785510 /* Release */ = {
+		76F6CCD0623E65F7763873550637D251 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C986064EB33145D707591246B6A37FB /* Hamburtton.xcconfig */;
+			baseConfigurationReference = 9CC25523EAB3653CF240CB5A6D7BFABC /* Hamburtton.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -516,7 +561,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Hamburtton/Hamburtton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Hamburtton/Hamburtton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Hamburtton/Hamburtton.modulemap";
 				PRODUCT_MODULE_NAME = Hamburtton;
@@ -532,74 +577,7 @@
 			};
 			name = Release;
 		};
-		7B04AAF9AC9CEA19B0C3C3F665249EE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07F12F52D9C6CD9781D0F9C41012989E /* Pods-Hamburtton_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8CB7861EADA2B0D3B2D1FACE209E511D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 790D54DAACF1032BB0374A09D68E3C9B /* Pods-Hamburtton_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -647,7 +625,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -658,7 +636,7 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -709,7 +687,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -722,11 +700,10 @@
 			};
 			name = Debug;
 		};
-		B8E6C846E13A09A2CC47A40AC60425A1 /* Debug */ = {
+		D569D554CC0FB9075394FE96D955BCEB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C986064EB33145D707591246B6A37FB /* Hamburtton.xcconfig */;
+			baseConfigurationReference = 9CC25523EAB3653CF240CB5A6D7BFABC /* Hamburtton.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -739,7 +716,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Hamburtton/Hamburtton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Hamburtton/Hamburtton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Hamburtton/Hamburtton.modulemap";
 				PRODUCT_MODULE_NAME = Hamburtton;
@@ -747,7 +724,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -758,38 +734,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		35C604B8898B8CA4614D989E17436DC7 /* Build configuration list for PBXNativeTarget "Pods-Hamburtton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CEDAC399008A93C685E4CD90E774F6 /* Debug */,
+				1D1E8E91F02FD954E653944A43B8627C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		810A32E9DBDCEDC8099326193A83ED40 /* Build configuration list for PBXNativeTarget "Pods-Hamburtton_Example" */ = {
+		8BDE68A5733E5B82AA9928D5F4A1AC1A /* Build configuration list for PBXNativeTarget "Pods-Hamburtton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8CB7861EADA2B0D3B2D1FACE209E511D /* Debug */,
-				7B04AAF9AC9CEA19B0C3C3F665249EE8 /* Release */,
+				04305B4444F06B05FDD6A013A51D6D1C /* Debug */,
+				168961B7F38B51F6598A4E67E5211343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B20BE76913BF9EC8D0A5FF5EF8F0FE4 /* Build configuration list for PBXNativeTarget "Hamburtton" */ = {
+		93BE0E8B985664EC9D6C34046DD7B95C /* Build configuration list for PBXNativeTarget "Hamburtton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8E6C846E13A09A2CC47A40AC60425A1 /* Debug */,
-				3693CC273CBFF54535638620E3785510 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9E6BA4A291657ABE42CA7AACFBCAA40E /* Build configuration list for PBXNativeTarget "Pods-Hamburtton_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0B54BB299836D7DADCAE578C9ADFB08D /* Debug */,
-				088F1BACD912AD2464775B3EB22AB0A6 /* Release */,
+				D569D554CC0FB9075394FE96D955BCEB /* Debug */,
+				76F6CCD0623E65F7763873550637D251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

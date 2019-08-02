@@ -55,8 +55,8 @@ class AnimationView: UIView {
     }
     
     private func commonInit() {
-        
-        Bundle.main.loadNibNamed("AnimationView", owner: self, options: nil)
+        let bundle = Bundle.init(for: AnimationView.self)
+        bundle.loadNibNamed("AnimationView", owner: self, options: nil)
         addSubview(contentView)
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]

@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of Hamburtton.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/22akshay94/Hamburtton",
+  "homepage": "https://github.com/Akshay/Hamburtton",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "22akshay94": "akshay@mobikasa.com"
+    "Akshay": "akshay@mobikasa.com"
   },
   "source": {
-    "git": "https://github.com/22akshay94/Hamburtton.git",
+    "git": "https://github.com/Akshay/Hamburtton.git",
     "tag": "0.1.0"
   },
   "platforms": {

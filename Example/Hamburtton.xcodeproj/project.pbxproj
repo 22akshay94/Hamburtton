@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E2E28E44D2BD260AFAAA417 /* Pods_Hamburtton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A61EF88B3CC034C98BDF60 /* Pods_Hamburtton_Tests.framework */; };
+		32480998D6B304E8D16FFE77 /* Pods_Hamburtton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6092AB5F96B1CEEB0935F369 /* Pods_Hamburtton_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		73492220ACBBA673B790981E /* Pods_Hamburtton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FDC195577C7AF41B8E891B /* Pods_Hamburtton_Example.framework */; };
+		E8F5232520F318256E140C6B /* Pods_Hamburtton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134FA9C2C1A00610EC00BD9D /* Pods_Hamburtton_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +28,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C43FB9CF8FDCD876CCAD80A /* Pods-Hamburtton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hamburtton_Tests.release.xcconfig"; path = "Target Support Files/Pods-Hamburtton_Tests/Pods-Hamburtton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		146C0C47D8F9BA9528222D72 /* Pods-Hamburtton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hamburtton_Example.debug.xcconfig"; path = "Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		37ECE4603C5D664BD3EC53DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		02ACBA2EB68589D7A36E9965 /* Pods-Hamburtton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hamburtton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Hamburtton_Tests/Pods-Hamburtton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1141C88F675E91EC06348389 /* Hamburtton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Hamburtton.podspec; path = ../Hamburtton.podspec; sourceTree = "<group>"; };
+		134FA9C2C1A00610EC00BD9D /* Pods_Hamburtton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hamburtton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35710BADA36EFCCEDC25FDC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3E8BAF829F2CE279EC89739C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3FB8F60233D56E9474524E12 /* Pods-Hamburtton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hamburtton_Tests.release.xcconfig"; path = "Target Support Files/Pods-Hamburtton_Tests/Pods-Hamburtton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5643CCC1A05EFE9238600CC5 /* Pods-Hamburtton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hamburtton_Example.release.xcconfig"; path = "Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Hamburtton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hamburtton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +45,8 @@
 		607FACE51AFB9204008FA782 /* Hamburtton_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hamburtton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		77A61EF88B3CC034C98BDF60 /* Pods_Hamburtton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hamburtton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		874998448697E005F7AF3245 /* Pods-Hamburtton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hamburtton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Hamburtton_Tests/Pods-Hamburtton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		87FDC195577C7AF41B8E891B /* Pods_Hamburtton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hamburtton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADE128F405C282BD444B06CA /* Pods-Hamburtton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hamburtton_Example.release.xcconfig"; path = "Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F338A01E702719E7C6D85292 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FF25B0E6B4F3565BBD00889B /* Hamburtton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Hamburtton.podspec; path = ../Hamburtton.podspec; sourceTree = "<group>"; };
+		6092AB5F96B1CEEB0935F369 /* Pods_Hamburtton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hamburtton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACB11D128A1873CD574BF3E /* Pods-Hamburtton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hamburtton_Example.debug.xcconfig"; path = "Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73492220ACBBA673B790981E /* Pods_Hamburtton_Example.framework in Frameworks */,
+				E8F5232520F318256E140C6B /* Pods_Hamburtton_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E2E28E44D2BD260AFAAA417 /* Pods_Hamburtton_Tests.framework in Frameworks */,
+				32480998D6B304E8D16FFE77 /* Pods_Hamburtton_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +76,8 @@
 				607FACD21AFB9204008FA782 /* Example for Hamburtton */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				E858A73D7616191F657EB4AC /* Pods */,
-				D39E54118EA43C1F9FA5D06B /* Frameworks */,
+				AC41F0412E9BA4A0D000DEC0 /* Pods */,
+				A2DD08E93466177124FE90D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,29 +132,29 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				FF25B0E6B4F3565BBD00889B /* Hamburtton.podspec */,
-				37ECE4603C5D664BD3EC53DC /* README.md */,
-				F338A01E702719E7C6D85292 /* LICENSE */,
+				1141C88F675E91EC06348389 /* Hamburtton.podspec */,
+				35710BADA36EFCCEDC25FDC5 /* README.md */,
+				3E8BAF829F2CE279EC89739C /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		D39E54118EA43C1F9FA5D06B /* Frameworks */ = {
+		A2DD08E93466177124FE90D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				87FDC195577C7AF41B8E891B /* Pods_Hamburtton_Example.framework */,
-				77A61EF88B3CC034C98BDF60 /* Pods_Hamburtton_Tests.framework */,
+				134FA9C2C1A00610EC00BD9D /* Pods_Hamburtton_Example.framework */,
+				6092AB5F96B1CEEB0935F369 /* Pods_Hamburtton_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E858A73D7616191F657EB4AC /* Pods */ = {
+		AC41F0412E9BA4A0D000DEC0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				146C0C47D8F9BA9528222D72 /* Pods-Hamburtton_Example.debug.xcconfig */,
-				ADE128F405C282BD444B06CA /* Pods-Hamburtton_Example.release.xcconfig */,
-				874998448697E005F7AF3245 /* Pods-Hamburtton_Tests.debug.xcconfig */,
-				0C43FB9CF8FDCD876CCAD80A /* Pods-Hamburtton_Tests.release.xcconfig */,
+				CACB11D128A1873CD574BF3E /* Pods-Hamburtton_Example.debug.xcconfig */,
+				5643CCC1A05EFE9238600CC5 /* Pods-Hamburtton_Example.release.xcconfig */,
+				02ACBA2EB68589D7A36E9965 /* Pods-Hamburtton_Tests.debug.xcconfig */,
+				3FB8F60233D56E9474524E12 /* Pods-Hamburtton_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -166,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Hamburtton_Example" */;
 			buildPhases = (
-				740A5D7AA72AF71543A27B46 /* [CP] Check Pods Manifest.lock */,
+				0FA4CA2D67F5C3358AAF223A /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				D5448ACE3FBA1BAA813BF33F /* [CP] Embed Pods Frameworks */,
+				1CEA5C0F3747989CAC71B2FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Hamburtton_Tests" */;
 			buildPhases = (
-				D525EA00C6334C7F24BD0D58 /* [CP] Check Pods Manifest.lock */,
+				2505B320BFD93012B15A86CC /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -213,6 +213,7 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -262,7 +263,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		740A5D7AA72AF71543A27B46 /* [CP] Check Pods Manifest.lock */ = {
+		0FA4CA2D67F5C3358AAF223A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -284,7 +285,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D525EA00C6334C7F24BD0D58 /* [CP] Check Pods Manifest.lock */ = {
+		1CEA5C0F3747989CAC71B2FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Hamburtton/Hamburtton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hamburtton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2505B320BFD93012B15A86CC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,28 +323,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D5448ACE3FBA1BAA813BF33F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Hamburtton/Hamburtton.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hamburtton.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hamburtton_Example/Pods-Hamburtton_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -423,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -469,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -479,15 +476,18 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 146C0C47D8F9BA9528222D72 /* Pods-Hamburtton_Example.debug.xcconfig */;
+			baseConfigurationReference = CACB11D128A1873CD574BF3E /* Pods-Hamburtton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Hamburtton/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -495,15 +495,18 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADE128F405C282BD444B06CA /* Pods-Hamburtton_Example.release.xcconfig */;
+			baseConfigurationReference = 5643CCC1A05EFE9238600CC5 /* Pods-Hamburtton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Hamburtton/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -511,10 +514,10 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 874998448697E005F7AF3245 /* Pods-Hamburtton_Tests.debug.xcconfig */;
+			baseConfigurationReference = 02ACBA2EB68589D7A36E9965 /* Pods-Hamburtton_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -533,10 +536,10 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C43FB9CF8FDCD876CCAD80A /* Pods-Hamburtton_Tests.release.xcconfig */;
+			baseConfigurationReference = 3FB8F60233D56E9474524E12 /* Pods-Hamburtton_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
